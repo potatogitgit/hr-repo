@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Test Google Calendar Events</h1>
+<h2>Event has been created:</h2>
+<a th:href="${meetLink}" th:text="${meetLink}"></a>
+<a th:href="${eventLink}" th:text="${eventLink}"></a>
+<!--<table>-->
+<!--    <thead>-->
+<!--    <tr>-->
+<!--        <th>Event:</th>-->
+<!--        <th>Date:</th>-->
+<!--    </tr>-->
+<!--    </thead>-->
+<!--    <tbody>-->
+<!--    <tr th:each="event: ${events}">-->
+<!--        <td th:text="${event.summary}"></td>-->
+<!--        <td th:text="${event.start}"></td>-->
+<!--    </tr>-->
+<!--    </tbody>-->
+<!--</table>-->
+
+</body>
+</html>
